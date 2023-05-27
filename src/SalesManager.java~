@@ -23,14 +23,5 @@ public class SalesManager {
             }
         }
         return min;
-
     }
-    public int average (){
-        int sum = 0;
-        for (int sale : sales){
-            sum += sale;
-        }
-        return (sum - (min () + max ())) / (sales.length - 2);
-    }
-
 }
